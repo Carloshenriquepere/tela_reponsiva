@@ -1,0 +1,105 @@
+/* Versão Mobile*/
+body{
+    
+    background-color: darkgrey ;
+}
+main{
+    background-color: white;
+    max-width: 1350px;
+    min-width: 330px; 
+    height: 4000px;
+    margin: auto;
+    padding: 0 5px;
+}
+.link, .logo{ display: none;}
+
+a.botao-mobile{
+    color: black;
+    font-size: 14px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: block;
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+#vector-pequeno{
+    width: 7px;
+    height: 10px;
+    left: 283px;
+    top: 49px;
+    margin-left: 4px;
+}
+#banner-mobile{
+    width: 100%;
+    padding: 60px 0 0 0;
+}
+#logo-mobile{
+    width: 17%;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.chamada-01 h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    padding: 30px 20px 20px 50px;
+}
+.chamada-01 p{
+    padding: 0px 20px 20px 50px;
+}
+.chamada-02{
+    
+    margin-top: 100px;
+    max-width: 100%px;
+   
+    height: auto;
+    background: #F8F8F8;
+}
+.chamada-02 h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 29px;
+    padding: 30px 20px 20px 50px;
+}
+.chamada-02 p{
+    padding: 0px 20px 20px 50px;
+}
+.vector02{
+    height: 9px;
+    margin-left: 90px;
+}
+.img-sede{
+    width: 100%;
+}
+.p-chamada-02{
+    font-size: 20px;
+}
+.footer-descktop{display: none;}
+.footer{
+    background-image: url(../img/img-radape.png);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.grupo{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.grupo > img{
+    padding-bottom: 60px;
+}
+.grupo > a{
+    padding-top: 60px;
+}
+
+
